@@ -1,5 +1,5 @@
 #DStore
-.DS_tore/
+.DS_Store/
 
 # Logs
 logs
@@ -131,3 +131,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#Node Modules
+/node_modules
