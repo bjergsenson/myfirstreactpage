@@ -5,7 +5,7 @@ const App = (props) => {
   //define the state and the setter
   const [APIlist, setAPIlist] = useState();
 
-  //On load invoke method to genrate list
+  //On load invoke method to generate list
   useEffect(() => {
     let url = "https://api.publicapis.org/entries?category=Animals";
     axios({
